@@ -1,16 +1,24 @@
-Package: yourPkg
-Title: What the Package Does (One Line, Title Case)
+Package: mypk
+Title: refactor codes of a shiny app
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Junhao",
+           family = "Wang",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "jwan0296@student.monash.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: mypk enable the shiny app to run with simpler code.
+License: `use_mit_license()`
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Imports: 
+    shiny,
+    ggplot2,
+    dplyr
+VignetteBuilder: knitr
